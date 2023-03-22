@@ -5,7 +5,7 @@ public class oddlyeven{
 		Scanner c = new Scanner(System.in);
 		int odd_sum=0;
 		int even_sum=0;
-		int inp = c.nextInt();
+		long inp = c.nextLong();
 		String a = String.valueOf(inp);
 		for(int i=0;i<a.length();i=i+2)
 		{
